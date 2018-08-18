@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
+// Routes
 const users = require("./routes/api/users");
 const profiles = require("./routes/api/profiles");
 const posts = require("./routes/api/posts");
@@ -17,6 +18,7 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
+// Main route
 app.get("/", (req, res) => res.send("Hello World"));
 
 // Use routes
