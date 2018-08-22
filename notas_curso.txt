@@ -49,6 +49,9 @@ Editar package.json
 		start 	node server.js
 		server	nodemon server.js
 
+Iniciar servidor: 
+	nodemon server.js
+
 crear carpeta config
 	guardar keys.js (mongodb)
 
@@ -86,4 +89,8 @@ modelo de usuario, registracion, postman, gravatar.
 	npm install gravatar
 
 11.
+techguyinfo@gmail.com 123456
 validar usuario y password	
+
+12.
+login y JWT
