@@ -1,0 +1,89 @@
+nodejs.org bajar nodejs
+visual studio code
+git-scm.com
+
+vs code
+preferencias
+	{
+  "editor.tabSize": 2,
+  
+	"editor.wordWrap": "on",
+  
+	"emmet.includeLanguages": { "javascript": "javasciptreact" },
+  
+	"emmet.syntaxProfiles": { "javascript": "jsx" },
+  
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  
+	"editor.formatOnSave": true
+}
+
+extensiones
+	ES7 React/Redux/React-Native/JS snippets
+	Bracket Pair Colorizer
+	Live Server
+	Node.js Modules Intellisense
+	Prettier formatter for Visual Studio Code
+
+mLab: mongoDB
+	amazon, sandbox
+	user
+	connection string
+
+nueva carpeta
+	vscode
+	terminal integrada
+	npm init
+		main: server.js
+		license: MIT?
+
+	dependencias
+		npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
+		npm i -D nodemon
+
+crear archivo
+	server.js
+
+Editar package.json
+	scripts
+		start 	node server.js
+		server	nodemon server.js
+
+crear carpeta config
+	guardar keys.js (mongodb)
+
+en server.js
+	mongoose.connect(db,{ useNewUrlParser: true })
+
+8.
+crear routes
+	routes/api/posts.js users.js profile.js
+	publicas y privadas
+
+GIT
+	.gitignore
+
+	stop server (ctrl + c)
+	git init
+	git add .
+	git commit -am 'Version inicial'
+	git push ?
+
+
+	git status
+	git add .
+	git commit -am "eliminado duplicado de ruta test de profile"
+	git push (o git push origin master)
+
+
+
+9.
+crear models
+
+10.
+modelo de usuario, registracion, postman, gravatar.
+	guarda en base de datos
+	npm install gravatar
+
+11.
+validar usuario y password	
