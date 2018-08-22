@@ -3,13 +3,13 @@ const router = express.Router();
 const gravatar = require("gravatar");
 const bcrypt = require("bcryptjs");
 
-//Load User Model
-const User = require("../../models/User");
-
 // @route   GET api/users/test
 // @desc    tests users route
 // @access  Public
 router.get("/test", (req, res) => res.json({ msg: "Users Works" }));
+
+//Load User Model
+const User = require("../../models/User");
 
 // @route   GET api/users/register
 // @desc    register user
@@ -45,10 +45,5 @@ router.post("/register", (req, res) => {
       }
     });
 });
-
-// @route   GET api/users/test
-// @desc    tests users route
-// @access  Public
-router.get("/test", (req, res) => res.json({ msg: "Users Works" }));
 
 module.exports = router;
