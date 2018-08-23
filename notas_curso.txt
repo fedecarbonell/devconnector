@@ -94,3 +94,6 @@ validar usuario y password
 
 12.
 login y JWT
+
+13. Passport JWT auth strategy.
+Se puede usar google login con passport.
